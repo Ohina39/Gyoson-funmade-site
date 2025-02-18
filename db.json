@@ -1,0 +1,16 @@
+{
+    "records": [
+      {
+        "id": 1,
+        "title": "お金を払う",
+        "isIncome": false,
+        "amount": 1000
+      },
+      {
+        "id": 2,
+        "title": "お金をもらう",
+        "isIncome": true,
+        "amount": 2000
+      }
+    ]
+  }
