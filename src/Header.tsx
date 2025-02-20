@@ -1,9 +1,17 @@
+
+
 const Header = () => {
     return (
-      <div className="Header">
-        <a href="https://www.youtube.com/watch?v=g6iZejHDFKQ">Tohma - Eureka (Full Album)</a>
-        <br />
-      </div>
+        <div style={{ backgroundImage: 'url(./img/Gyosonbackpng.png)' ,
+             backgroundSize: 'cover',
+             backgroundPosition: 'center',
+             backgroundRepeat: 'no-repeat'
+        }}>
+            <header>
+                <a href="https://www.youtube.com/watch?v=g6iZejHDFKQ">Tohma - Eureka (Full Album)</a>
+                <br />
+            </header>
+        </div>
     );
   };
   

@@ -8,7 +8,7 @@ function PageMove() {
       <div className="App">
         <Link to="/">Home</Link>
         <br />
-        <Link to="/URL">URLPage1</Link>
+        <Link to="/URL">Work</Link>
         <br />
         
       </div>

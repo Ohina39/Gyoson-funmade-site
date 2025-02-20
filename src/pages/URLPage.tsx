@@ -1,7 +1,7 @@
 const URLPage = () => {
     return (
       <div>
-        <h1>URLページタイトル</h1>
+        <h1>Workページタイトル</h1>
       </div>
     );
   };

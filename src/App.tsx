@@ -4,19 +4,35 @@ import Header from './Header';
 import HomePage from './pages/HomePage';
 import URLPage from './pages/URLPage';
 import Comment from './comment'
+
 import './App.css'
 
 function App() {
   return (
-    <Router>
-      <PageMove />
+    <div style={{ backgroundImage: 'url(./img/Gyosonbackpng.png)' ,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+ }}>
       <Header />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/URL" element={<URLPage />} />
-      </Routes>
-      <Comment />
-    </Router>
+      <Router>
+        <PageMove />
+        
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          
+          <Route path="/URL" element={<URLPage />} />
+        </Routes>
+        <br />
+        <br />
+        <br />
+      
+      </Router>
+
+      <div>
+        <Comment />
+      </div>
+    </div>
   )
 }
 
