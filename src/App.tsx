@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import PageMove from './PageMove';
 import Header from './Header';
+import Footer from './Footer';
 import HomePage from './pages/HomePage';
 import URLPage from './pages/URLPage';
 import Comment from './comment'
@@ -31,7 +32,47 @@ function App() {
 
       <div>
         <Comment />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        
+
       </div>
+      <Footer />
     </div>
   )
 }

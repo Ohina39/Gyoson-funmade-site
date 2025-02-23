@@ -1,12 +1,12 @@
-const Header = () => {
+const Footer = () => {
     return (
         <div>
-            <header>
+            <footer className="Footer">
                 <a href="https://www.youtube.com/watch?v=g6iZejHDFKQ">Tohma - Eureka (Full Album)</a>
                 <br />
-            </header>
+            </footer>
         </div>
     );
   };
   
-  export default Header;
+  export default Footer;
