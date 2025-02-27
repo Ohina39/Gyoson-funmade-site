@@ -1,6 +1,7 @@
 import { Box, Button, ChakraProvider, Checkbox, Flex, Input, Text } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 
+
 type Record = {
   id: number
   title: string
@@ -9,6 +10,7 @@ type Record = {
 }
 
 function Comment() {
+  
   const [records, setRecords] = useState<Record[]>([])
   const [title, setTitle] = useState<string>('')
   const [isIncome, setIsIncome] = useState<boolean>(false)

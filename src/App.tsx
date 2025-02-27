@@ -1,11 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import PageMove from './PageMove';
+import { ChakraProvider } from '@chakra-ui/react'
 import Header from './Header';
 import Footer from './Footer';
 import HomePage from './pages/HomePage';
 import URLPage from './pages/URLPage';
-import Comment from './comment'
-
+import CommentsPage from './pages/CommentsPage';
 import './App.css'
 
 function App() {
@@ -15,42 +14,18 @@ function App() {
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat'
  }}>
+  <ChakraProvider>
+    <Router>
       <Header />
-      <Router>
-        <PageMove />
+
         
         <Routes>
           <Route path="/" element={<HomePage />} />
           
           <Route path="/URL" element={<URLPage />} />
-        </Routes>
-        <br />
-        <br />
-        <br />
-      
-      </Router>
 
-      <div>
-        <Comment />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+          <Route path="/Comments" element={<CommentsPage />} />
+        </Routes>
         <br />
         <br />
         <br />
@@ -71,8 +46,9 @@ function App() {
         <br />
         
 
-      </div>
       <Footer />
+    </Router>
+    </ChakraProvider>
     </div>
   )
 }
