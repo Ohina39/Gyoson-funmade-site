@@ -13,10 +13,11 @@ function App() {
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat'
- }}>
-  <ChakraProvider>
-    <Router>
-      <Header />
+      }} className="App">
+      <div className="App1">
+      <ChakraProvider>
+      <Router>
+        <Header />
 
         
         <Routes>
@@ -44,11 +45,30 @@ function App() {
         <br />
         <br />
         <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         
 
-      <Footer />
-    </Router>
-    </ChakraProvider>
+        <Footer />
+      </Router>
+      </ChakraProvider>
+      </div> 
     </div>
   )
 }

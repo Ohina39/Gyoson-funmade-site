@@ -4,9 +4,20 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <header className="Header">
+        <header style={{ backgroundImage: 'url(./img/Gyoson_Header_1500x500.jpg)' ,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+            }}className="Header">
+
+            <div>.</div>
+
             <div className="Header1">
-                <Img className="Header_img1" src="/img/Gyoson_icon_png.png" width={100} height={100} />
+                <nav >
+                    <Link to="/">
+                        <Img src="/img/Gyoson_icon_png.png" width={75} height={75} />
+                    </Link>
+                </nav>
             </div>
 
             
@@ -15,17 +26,17 @@ const Header = () => {
                     
                     <div className="Header_Home" >
                         <nav >
-                            <Link to="/">Home</Link>
+                            <Link to="/">HOME</Link>
                         </nav>
                     </div>
                     <div className="Header_Media">
                         <nav>
-                            <Link to="/URL">Work</Link>
+                            <Link to="/URL">WORK</Link>
                         </nav>
                     </div>
                     <div className="Header_Comments">
                         <nav >
-                            <Link to="/Comments">Comments</Link>
+                            <Link to="/Comments">COMMENTS</Link>
                         </nav>
                     </div>
                 </div>

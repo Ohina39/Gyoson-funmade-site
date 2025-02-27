@@ -1,20 +1,23 @@
 .Header {
+    
     width: 100%;
     height: 160px;
     background: #e1c4e2;
 }
 
+
+
 .Header1 {
     background: #2faa58; 
-    width: 100px;
-    
+    width: 75px;
     margin: 0 auto;
     
 }
 
+
 .Header2 {
     background: #504853; 
-    width: 98%;
+    width: 95%;
     display: flex;
     margin: 0 auto;
     
@@ -23,25 +26,27 @@
 .Header_left {
     display: flex;
     margin-right: auto;
-
+    filter: invert(100%);
     background: #2faa58; 
     width: 50%;
 }
 
 .Header_Home {
     background: #aa9e2f; 
-    
+    font-size: 20px;
     width: 80px;  
 }
 
 .Header_Media {
     background: #2f4428; 
+    font-size: 20px;
     width: 80px;   
 }
 
 .Header_Comments {
     background: #aa792f; 
-    width: 80px;
+    font-size: 20px;
+    width: 110px;
 }
 
 /*ーーーーーーーーーーーーーーーーーーーーーーHeader_rightーーーーーーーーーーーーーーーーーーーーーーー*/
@@ -49,22 +54,26 @@
     display: flex;
     margin-left: auto;
     background: #4a2faa; 
+    filter: invert(100%);
     width: 50%;
 }
 
 .Header_Youtube {
     background: #2f91aa; 
     margin-left: auto;
+    
     width: 50px;  
 }
 
 .Header_inst {
     background: #4b4608; 
+    
     width: 50px;   
 }
 
 .Header_Twitter {
     background: #aa2f54; 
+    
     width: 50px;
 }
 /*ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
