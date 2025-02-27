@@ -22,17 +22,19 @@
 
 .slide_1 {
     margin: 0 auto;
-
 }
 
 .slide_2 {
     margin: 0 auto;
- 
 
 }
 
 .slide_3 {
     margin: 0 auto;
+}
 
-
+.bar {
+    height: 150px;
+    width: 100%;
+    /*background: #e1c4e2;*/
 }
