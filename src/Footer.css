@@ -12,7 +12,7 @@
     height: 90px;
     display: flex;
     margin: 0 auto;
-    background: #523838;
+    /*background: #523838;*/
 }
 
 /*ーーーーーーーーーーーーーーーーーーーーーーFooter_leftーーーーーーーーーーーーーーーーーーーーーーーーー*/
@@ -21,7 +21,7 @@
     display: flex;
     margin-right: auto;
     align-items: center;
-    background: #2faa58; 
+    /*background: #2faa58;*/ 
     width: 50%;
     font-size: 12px;
 }
@@ -31,13 +31,13 @@
 .Footer_right {
     display: flex;
     margin-left: auto;
-    background: #4a2faa; 
+    /*background: #4a2faa; */
     align-items: center;
     width: 50%;
 }
 
 .Footer_Youtube {
-    background: #2f91aa; 
+    /*background: #2f91aa; */
     margin-left: auto;
     width: 40px;
     height: 25px;
@@ -45,14 +45,14 @@
 }
 
 .Footer_inst {
-    background: #4b4608; 
+    /*background: #4b4608; */
     width: 40px;   
     height: 25px;
     filter: invert(100%);
 }
 
 .Footer_Twitter {
-    background: #aa2f54; 
+    /*background: #aa2f54; */
     width: 40px;
     height: 25px;
     filter: invert(100%);

@@ -1,5 +1,6 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react'
+
 import Header from './Header';
 import Footer from './Footer';
 import HomePage from './pages/HomePage';
@@ -8,19 +9,23 @@ import CommentsPage from './pages/CommentsPage';
 import './App.css'
 
 function App() {
+  
+
   return (
     <div style={{ backgroundImage: 'url(./img/Gyosonbackpng.png)' ,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat'
       }} className="App">
+    
+
       <div className="App1">
       <ChakraProvider>
       <Router>
         <Header />
 
         
-        <Routes>
+        <Routes >
           <Route path="/" element={<HomePage />} />
           
           <Route path="/URL" element={<URLPage />} />
@@ -51,24 +56,14 @@ function App() {
         <br />
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        
         
 
         <Footer />
       </Router>
       </ChakraProvider>
       </div> 
+      
     </div>
   )
 }

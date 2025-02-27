@@ -1,22 +1,23 @@
 .slide {
     height: 520px;
     width: 100%;
-    background: #e1c4e2;
+    /*background: #e1c4e2;*/
 }
 
 .slide1_block {
     width: 700px;
-
+    width: 100%;
+ 
 }
 
 .slide2_block {
     width: 700px;
-
+    width: 100%;
 }
 
 .slide3_block {
     width: 700px;
-
+    width: 100%;
 }
 
 .slide_1 {
