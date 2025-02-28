@@ -1,6 +1,42 @@
 .slide {
     height: 520px;
     width: 100%;
+    border: 1px solid ;
+    border-color: rgb(255, 255, 255) rgb(255, 255, 255) #696969 rgb(255, 255, 255);
+    /*background: #e1c4e2;*/
+}
+
+.twi {
+
+    height: 920px;
+    width: 50%;
+    border: 1px solid ;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-color: rgb(155, 155, 155) #696969 #ffffff rgb(255, 255, 255);
+    /*background: #e1c4e2;*/
+}
+
+.twi_topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 70px;
+    margin-top: 10px;
+    font-size: 40px;
+    /*background: #e1c4e2;*/
+}
+
+.twitter-tweet1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    height: 820px;
+    
     /*background: #e1c4e2;*/
 }
 

@@ -60,9 +60,11 @@ const HomePage = () => {
         
 
 
-        <div>
-          <blockquote className="twitter-tweet"><p lang="en" dir="ltr">*not for sale <a href="https://t.co/fd1XU4gbXZ">pic.twitter.com/fd1XU4gbXZ</a></p>&mdash; Gyoson (@gyoson_) <a href="https://twitter.com/gyoson_/status/1878789609192378554?ref_src=twsrc%5Etfw">January 13, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js?mute=1 charSet=utf-8"></script>
+        <div className="twi">
+          <div className="twi_topic">T O P I C</div>
+          <blockquote className="twitter-tweet1"><p lang="en" dir="ltr">*not for sale <a href="https://t.co/fd1XU4gbXZ">pic.twitter.com/fd1XU4gbXZ</a></p>&mdash; Gyoson (@gyoson_) <a href="https://twitter.com/gyoson_/status/1878789609192378554?ref_src=twsrc%5Etfw">January 13, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js?mute=1 charSet=utf-8"></script>
         </div>
+
       </div>
       
     );
